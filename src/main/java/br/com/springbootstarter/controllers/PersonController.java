@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.springbootstarter.models.Person;
@@ -20,7 +21,7 @@ public class PersonController {
 		logger = Logger.getLogger(Person.class);
 	}
 
-//	@ResponseBody
+	@ResponseBody
 	@RequestMapping(method=RequestMethod.GET, value="/getPersons")
 	public List<Person> getPersons() {
 		logger.info("Getting persons on rest server");
