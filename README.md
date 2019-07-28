@@ -1,3 +1,1 @@
-# jarjarbinks
-
-Spring Boot Starter Project
+# Spring Boot Starter Project
