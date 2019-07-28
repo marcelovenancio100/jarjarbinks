@@ -1,1 +1,1 @@
-# Spring Boot Starter Project
+# Project Starter with Spring Boot
